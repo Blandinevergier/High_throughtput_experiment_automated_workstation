@@ -1,3 +1,6 @@
+# Autor: Blandine Vergier
+# Version: 29-06-2019
+
 #------------------------ LIBRARIES --------------------------------------
 import numpy as np
 import pandas as pd
@@ -16,14 +19,14 @@ def Factors(): #this function returns a dictionnary containing the factors as ke
     fac2 = input("Please enter the name of the factor of 2 levels separated by a coma:")
     list_factors = fac.split(",")
     list_factors.append(fac2)
-    """
+    
     for fact in list_factors:
         
        var = input("Please enter the levels of "+fact+" (take care of separating the levels by a coma):")
        levels=var.split(",")
        dic_factors.update({fact:levels})
        
-       """
+       
     dic_factors.update({"list_fact":list_factors})
     
     return(dic_factors)
@@ -177,11 +180,11 @@ Matrix_model = np.array([[1, -1, -1, -1, -1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1
                          [1, 1, 0, -1, -1, 0, 0, 1, -1, 1, 0, 1, 1, 0, 0, 1]])
                        
 
-# 2. récupération des datas sous forme de matrice
+# 2. Get the data
 
 Raw_Data = Get_data('21062019_group2_HEPES_sodium.txt', Dictionnay_factors)
 
-# 3. traitement des données pour avoir des valeurs de polarisation à comparer
+# 3. Correction of the data and calculation of mP values
     
 Corr_Data =  Data_correction(Raw_Data, Dictionnay_factors, Matrix_model)
 
@@ -190,7 +193,7 @@ mp_values = np.array([mp_values])
 mp_values = mp_values.transpose()
 
 
-# 4. résolution de l'équation (détermination des paramètres)
+# 4. Solve the matrix equation
     
 Parameter_values = Parameter_res(mp_values,Matrix_model)
 
