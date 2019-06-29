@@ -21,7 +21,7 @@ For the analysis part, the program takes as an input the values of fluorescence 
 
 
 **Scripts:**
-- *Robot_set_up.py*
+- *HD_project_Robot_set_up.py*
 - *HD_project_buffer_screening_analysis.py*
 
 # References
