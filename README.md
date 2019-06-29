@@ -10,9 +10,9 @@ For the buffer screening, we selected 7 different factors of 3 levels and 1 fact
 
 Y = a0 + a1 x factor1 + a2 x factor2 + a3 x factor3 + a4 x factor4 + a5 x factor5 + a6 x factor6 + a7 x factor7 + a8 x factor8 + a9 x factor1² + a10 x factor2² + a11 x factor3² + a12 x factor4² + a13 x factor5² + a14 x factor6é + a15 x factor7²
 
-With:
-  Y: The response (fluorescence intensity and/or the fluorescence polarization)
-  a0, a1, a2, ..., a15: The parameters to determine
+**With:**
+- Y: The response (fluorescence intensity and/or the fluorescence polarization)
+- a0, a1, a2, ..., a15: The parameters to determine
 
 # Python 3 pipeline
 
