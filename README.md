@@ -21,8 +21,8 @@ For the analysis part, the program takes as an input the values of fluorescence 
 
 
 **Scripts:**
-- *HD_project_Robot_set_up.py*
-- *HD_project_buffer_screening_analysis.py*
+- *"buffer_screen_txt_create.py"* : Robot set up
+- *"HD_project_buffer_screening_analysis.py"* :Buffer screenin analysis
 
 # References
 
