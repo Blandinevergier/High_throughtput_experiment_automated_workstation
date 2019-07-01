@@ -2,7 +2,7 @@
 
 ## Autors: Alexandre Thurman, Blandine Vergier and Juliane Weller
 
-The aim of our study was to find the optimum conditions to solubilize a fluorescent peptide (labelled with FITC). Therefore, we performed a buffer screening on an automated workstation and we measured the fluorescence intensity and the fluorescence polarization to evaluate the solubility of the peptide.
+The aim of our study was to find the optimum conditions to solubilize a fluorescent peptide (labelled with FITC). To do so, we performed a buffer screening on an automated workstation and we measured the fluorescence intensity and the fluorescence polarization to evaluate the solubility of the peptide.
 
 *This GitHub repository only contains the scripts that we used for the robot set up and the analysis. For more information regarding our study and our experimental plan, please refer to our project report.*
 
