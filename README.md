@@ -20,7 +20,7 @@ Y = a0 + a1 x factor1 + a2 x factor2 + a3 x factor3 + a4 x factor4 + a5 x factor
 
 For the robot set up, the program returns all the text files which contained the information regarding the volumes each solution to pipet and their destination in the 96-wells plate. These text files can be directly read by the software of the robot. 
 
-For the analysis part, the program takes as an input the values of fluorescence intensity and solve the matrix equation after correction of the data with the blank and calculation of mP values.
+For the analysis part, the program takes as an input the values of fluorescence intensity and solves the matrix equation after correction of the data with the blank and calculation of mP values.
 
 ![](Flowchart.png)
 *Figure 1. Flowchart of the Python 3 pipeline for the robot set up and the data analysis.*
